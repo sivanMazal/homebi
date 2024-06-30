@@ -1,0 +1,59 @@
+.note-container {
+  display: inline-block;
+  padding: 16px 0;
+}
+
+.note {
+  position: relative;
+  width: 220px;
+  height: 170px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.pin-top,
+.pin-bottom {
+  position: absolute;
+  background-color: #94db9f;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transform: rotate(45deg);
+}
+
+.pin-top {
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+}
+
+.pin-bottom {
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+}
+
+.note-content {
+  padding: 20px;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.nicely-styled-textarea {
+  width: 100%;
+  height: 200px;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  resize: vertical;
+}
+
+.nicely-styled-textarea:focus {
+  outline: none;
+  border-color: #6c63ff;
+  box-shadow: 0 0 0 2px rgba(108, 99, 255, 0.3);
+}

@@ -1,0 +1,24 @@
+.messages {
+    background-color: #f0f0f0;
+    padding: 20px;
+    /* border-left: 0.7px solid #918b8b; */
+}
+
+.homePage {
+    /* background-color: #f0f0f0; */
+}
+
+main {
+    flex-grow: 1;
+    /* background-color: ; */
+    padding: 20px;
+}
+
+
+.sticky-element {
+    min-height: 800px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}

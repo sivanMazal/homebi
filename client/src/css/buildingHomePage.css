@@ -1,0 +1,39 @@
+.iconCard{
+    border-radius: 50%;
+    background: rgb(37, 37, 114);
+    background: #245160 0%;
+    color:white;
+    width: 60px;
+    font-size: x-large;
+    padding: 12px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.cardInfo{
+    width:18vw;
+    padding: 24px;
+    margin-bottom: 24px;
+    /* border-radius: 15px; */
+    /* border: 2px solid black; */
+}
+
+.cardInfo h4{
+    /* color:rgb(37, 37, 114) */
+}
+
+.bg-cardInfo {
+    background-color: none;
+}
+
+@media (max-width:991px) {
+    .cardInfo{
+    width:30vw;
+    }
+}
+
+@media (max-width:768px) {
+    .cardInfo{
+    width:50vw;
+    }
+}

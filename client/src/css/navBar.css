@@ -1,0 +1,105 @@
+.logo {
+    text-align: right;
+}
+
+.navBar {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav2 {
+    padding: 0 20px;
+    padding-top: 2px;
+}
+
+.navBar-link {
+    /* margin: 0.8rem; */
+    font-size: 16px;
+    font-weight: bold;
+    color: #245160;
+    text-decoration: none;
+    /* padding-top:30px */
+}
+
+
+.navBar-link:active {
+    opacity: 0.5;
+}
+
+a :hover {
+    text-decoration: underline;
+    text-decoration-color: #412e17;
+}
+
+a :active {
+    color: black;
+}
+
+a :visited {
+    color: black;
+}
+
+.buttons {
+    text-align: left;
+}
+
+header {
+    max-height: 80px;
+    background: rgba(255, 255, 255, 0.45);
+    z-index: 999;
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .container {
+    min-height: inherit;
+}
+
+header .row {
+    min-height: inherit;
+}
+
+.hello {
+    margin-right: 195px;
+}
+
+a .fa {
+    font-size: 1.1em;
+}
+
+a {
+    transition: 500ms;
+}
+
+a:hover {
+    transform: scale(1.1, 1.1);
+}
+
+a {
+    text-decoration: none;
+}
+
+.some-element {
+    justify-content: flex-start;
+}
+
+a:hover {
+    color: rgb(36, 81, 96);
+    text-decoration: none;
+}
+
+a::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0%;
+    background: rgb(36, 81, 96);
+    transition: 1000ms;
+    margin: 0 auto;
+}
+
+a:hover::after {
+    width: 100%;
+}

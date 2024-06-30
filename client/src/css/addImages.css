@@ -1,0 +1,52 @@
+.div-images {
+    border: lightgray dotted;
+    /* width: 14rem; */
+    height: 11rem;
+    margin: 1rem 1px;
+    text-align: center;
+}
+.add-img2{
+    width: 10.7rem;
+    height: 8.2rem;
+}
+
+.add-img{
+    width: 11.8rem;
+    height: 8.2rem;
+}
+
+.div-border{
+    width: 16rem;
+    height: 13.5rem;
+    border-radius: 10px;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.div-container{
+    width: 14rem;
+    height: 11rem;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+    right:1rem;
+    top:0.5rem;
+    background-color: white;
+}
+
+.css-14yr603-MuiStepContent-root {
+    border-left: none !important;
+    /* border-right:1px solid #bdbdbd; */
+}
+
+.css-8t49rw-MuiStepConnector-line{
+    border-color: white !important;
+}
+
+.mapInp{
+   height:40px;
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active{
+        color: "#ebedf0" !important;
+}
